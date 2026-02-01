@@ -1,0 +1,24 @@
+game:
+  title: "Dexter: The Game"
+  version: "1.0"
+  start_scene: "intro"
+
+screen:
+  width: 1280
+  height: 720
+  fullscreen: false
+
+text:
+  speed: 30
+  max_history: 100
+
+fonts:
+  main: "default.ttf"
+  dialog_size: 24
+  name_size: 20
+  choice_size: 22
+
+audio:
+  music_volume: 0.5
+  sound_volume: 0.7
+  voice_volume: 1.0
