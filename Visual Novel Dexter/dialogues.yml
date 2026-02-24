@@ -1,0 +1,46 @@
+# Диalogue system for Dexter Visual Novel
+# Формат:
+# - scene: название сцены
+#   background: путь к фону (опционально, используется из menu_assets/ или game_assets/)
+#   dialogues:
+#     - character: имя персонажа
+#       text: текст диалога
+#       character_image: путь к изображению персонажа (опционально)
+
+scenes:
+  - scene: "intro"
+    background: "game_assets/office_bg.png"
+    dialogues:
+      - character: "ДЕКСТЕР МОРГАН"
+        text: "Сержант, я просто делаю свою работу..."
+        character_image: "game_assets/dexter_1.png"
+      
+      - character: "ДЕКСТЕР МОРГАН"
+        text: "Анализирую улики, собираю данные. Это то, чем я занимаюсь."
+        character_image: "game_assets/dexter_1.png"
+      
+      - character: "ЛАГЕРТА"
+        text: "Морган, ты вещь. Просто следи за собой."
+        character_image: "game_assets/lagerta.png"
+  
+  - scene: "night"
+    background: "game_assets/apartment_bg.png"
+    dialogues:
+      - character: "ДЕКСТЕР МОРГАН"
+        text: "Ночью я становлюсь тем, кто я на самом деле..."
+        character_image: "game_assets/dexter_2.png"
+      
+      - character: "ДЕКСТЕР МОРГАН"
+        text: "Охотник в городе охотников. Ночной призрак Miami Metro."
+        character_image: "game_assets/dexter_2.png"
+
+  - scene: "end"
+    background: "game_assets/sunset.png"
+    dialogues:
+      - character: "ДЕКСТЕР МОРГАН"
+        text: "И все же... есть что-то человеческое, что остается."
+        character_image: "game_assets/dexter_1.png"
+      
+      - character: "ДЕКСТЕР МОРГАН"
+        text: "Спасибо за внимание."
+        character_image: "game_assets/dexter_1.png"
